@@ -31,3 +31,30 @@
     position: fixed;
     right: 20px;
 }
+.nav_search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.nav_search > img{
+    width: 35px;
+    height: 35px;
+}
+
+.search_bar {
+    background-color: rgba(0, 0, 0, 0.5); /* bg-black bg-opacity-50 */
+    color: white; /* text-white */
+    padding: 0.5rem 1rem; /* pl-10 pr-4 py-2 (pl: 2.5rem, pr: 1rem, py: 0.5rem) */
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 9999px; /* rounded-full */
+    outline: none; /* focus:outline-none */
+  }
+  
+  .search_bar:focus {
+    box-shadow: 0 0 0 2px white; /* focus:ring-2 focus:ring-white */
+  }
